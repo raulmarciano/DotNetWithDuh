@@ -22,7 +22,7 @@ namespace DotnetWithDuh.WebApi.Controllers
             _bookEntities = _bookEntityFaker.Generate(30);
         }
 
-        //Tudo Comado
+        //Tudo mocado
         //TODO: Falta fazer um DTO básico, camada de infra, database e um worker (rabbitmq)
 
         [HttpGet()]
